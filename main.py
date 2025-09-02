@@ -13,7 +13,7 @@ Supports both simple and complex logic (aggregations, CASE, window functions, jo
 """)
 
 # ---- API Key ----
-api_key = st.secrets["api_keys"]["GROQ_API_KEY"]
+api_key = st.secrets["GROQ_API_KEY"]
 
 llm = ChatGroq(
     model_name="openai/gpt-oss-20b",

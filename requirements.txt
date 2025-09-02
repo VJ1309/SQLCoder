@@ -1,5 +1,4 @@
 streamlit
 pandas
-numpy
-langchain_groq
-io
+langchain
+langchain-groq
